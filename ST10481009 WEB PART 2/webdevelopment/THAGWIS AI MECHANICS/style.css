@@ -1,0 +1,1416 @@
+/* =====================================================
+   THAGWIS AI MECHANIC
+   PROFESSIONAL EXTERNAL STYLESHEET
+   ===================================================== */
+
+
+/* ===================== RESET ===================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f7fa;
+    color: #1f2937;
+    line-height: 1.7;
+}
+
+
+/* ===================== HEADER ===================== */
+
+header {
+    background: #0b1220;
+    color: white;
+    padding: 25px 8%;
+    text-align: center;
+    border-bottom: 3px solid #2563eb;
+}
+
+header img {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    margin: 0 auto 12px;
+    transition: transform 0.3s ease;
+}
+
+header img:hover {
+    transform: scale(1.05);
+}
+
+header h1 {
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #cbd5e1;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+
+/* ===================== NAVIGATION ===================== */
+
+nav {
+    background: #111827;
+    padding: 18px 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+nav a {
+    display: inline-block;
+    color: #f8fafc;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0 14px;
+    padding: 6px 2px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background: #38bdf8;
+    transition: width 0.3s ease;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+
+/* ===================== HORIZONTAL LINES ===================== */
+
+hr {
+    border: none;
+    height: 1px;
+    background: #e2e8f0;
+}
+
+
+/* ===================== MAIN ===================== */
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 45px auto;
+}
+
+
+/* ===================== SECTIONS ===================== */
+
+main section {
+    background: white;
+    padding: 50px;
+    margin-bottom: 35px;
+    border-radius: 14px;
+    box-shadow: 0 6px 25px rgba(15, 23, 42, 0.08);
+    border: 1px solid #e5e7eb;
+}
+
+
+/* ===================== HEADINGS ===================== */
+
+main h2 {
+    color: #111827;
+    font-size: 31px;
+    line-height: 1.3;
+    margin-bottom: 22px;
+    padding-left: 16px;
+    border-left: 5px solid #2563eb;
+}
+
+main h3 {
+    color: #1d4ed8;
+    margin-bottom: 12px;
+}
+
+main h4 {
+    color: #38bdf8;
+    margin: 20px 0 10px;
+}
+
+
+/* ===================== PARAGRAPHS ===================== */
+
+main p {
+    color: #4b5563;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+
+/* ===================== HERO ===================== */
+
+main section:first-child {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background: #0f172a;
+    color: white;
+    padding: 60px 50px;
+}
+
+main section:first-child::before {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: rgba(37, 99, 235, 0.15);
+    top: -100px;
+    right: -80px;
+}
+
+main section:first-child h2 {
+    position: relative;
+    color: white;
+    border: none;
+    padding: 0;
+    font-size: 43px;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+}
+
+main section:first-child p {
+    position: relative;
+    max-width: 850px;
+    margin: 0 auto 30px;
+    color: #dbeafe;
+    font-size: 17px;
+}
+
+
+/* ===================== HERO IMAGE ===================== */
+
+main section:first-child img {
+    position: relative;
+    width: 100%;
+    max-width: 950px;
+    height: 430px;
+    object-fit: cover;
+    margin: 30px auto;
+    border-radius: 12px;
+    border: 3px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+}
+
+
+/* ===================== IMAGES ===================== */
+
+main section img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.14);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+main section img:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.20);
+}
+
+
+/* ===================== LISTS ===================== */
+
+main ul,
+main ol {
+    margin: 25px 0 30px 25px;
+}
+
+main li {
+    margin-bottom: 15px;
+    padding-left: 8px;
+    color: #374151;
+}
+
+main li strong {
+    color: #1d4ed8;
+}
+
+
+/* ===================== LINKS / BUTTONS ===================== */
+
+main a {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 13px 28px;
+    border-radius: 7px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    margin-top: 8px;
+    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.25);
+    transition: all 0.3s ease;
+}
+
+main a:hover {
+    background: #1d4ed8;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.35);
+}
+
+
+/* ===================== HERO BUTTON ===================== */
+
+main section:first-child a {
+    background: #38bdf8;
+    color: #082f49;
+}
+
+main section:first-child a:hover {
+    background: #7dd3fc;
+}
+
+
+/* ===================== CALL TO ACTION ===================== */
+
+main section:last-child {
+    text-align: center;
+    background: linear-gradient(135deg, #172554, #1e3a8a);
+    color: white;
+    border: none;
+    padding: 55px 40px;
+}
+
+main section:last-child h2 {
+    color: white;
+    border: none;
+    padding: 0;
+}
+
+main section:last-child p {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #dbeafe;
+}
+
+main section:last-child a {
+    background: #38bdf8;
+    color: #082f49;
+    margin-top: 10px;
+}
+
+main section:last-child a:hover {
+    background: #7dd3fc;
+}
+
+
+/* ===================== FOOTER ===================== */
+
+footer {
+    background: #0b1220;
+    color: white;
+    text-align: center;
+    padding: 55px 20px 30px;
+    border-top: 3px solid #2563eb;
+}
+
+footer h3 {
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+footer h4 {
+    color: #38bdf8;
+    margin: 25px 0 10px;
+}
+
+footer p {
+    color: #cbd5e1;
+    margin-bottom: 8px;
+}
+
+footer hr {
+    max-width: 750px;
+    margin: 25px auto;
+    background: #334155;
+}
+
+
+/* ===================== MOBILE ===================== */
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 25px 20px;
+    }
+
+    header img {
+        width: 90px;
+        height: 90px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    nav {
+        position: static;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    main {
+        width: 94%;
+        margin: 25px auto;
+    }
+
+    main section {
+        padding: 30px 20px;
+        border-radius: 10px;
+    }
+
+    main section:first-child {
+        padding: 40px 20px;
+    }
+
+    main section:first-child h2 {
+        font-size: 31px;
+    }
+
+    main section:first-child p {
+        font-size: 15px;
+    }
+
+    main section:first-child img {
+        height: 260px;
+    }
+
+    main h2 {
+        font-size: 25px;
+    }
+
+    main p {
+        font-size: 15px;
+    }
+
+    main ul,
+    main ol {
+        margin-left: 20px;
+    }
+
+    footer {
+        padding: 40px 20px 25px;
+    }
+}
+
+/* =====================================================
+   FEATURED SERVICES
+   ===================================================== */
+
+main section:nth-of-type(3) ul {
+    list-style: none;
+    margin: 30px 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+main section:nth-of-type(3) li {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-left: 5px solid #2563eb;
+    border-radius: 8px;
+    padding: 22px;
+    margin: 0;
+    min-height: 120px;
+    transition: all 0.3s ease;
+}
+
+main section:nth-of-type(3) li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.12);
+    border-left-color: #38bdf8;
+}
+
+main section:nth-of-type(3) li strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: #1d4ed8;
+}
+
+
+/* Services image */
+
+main section:nth-of-type(3) img {
+    width: 100%;
+    max-width: 850px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 35px;
+}
+
+/* =====================================================
+   WHY CHOOSE THAGWIS AI MECHANIC
+   ===================================================== */
+
+main section:nth-of-type(4) ol {
+    list-style: none;
+    counter-reset: benefits;
+    margin: 30px 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+main section:nth-of-type(4) ol li {
+    counter-increment: benefits;
+    position: relative;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 9px;
+    padding: 22px 20px 22px 65px;
+    margin: 0;
+    min-height: 75px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+/* Number circle */
+
+main section:nth-of-type(4) ol li::before {
+    content: counter(benefits);
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 34px;
+    height: 34px;
+    background: #2563eb;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* Hover effect */
+
+main section:nth-of-type(4) ol li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.12);
+    border-color: #2563eb;
+}
+
+main section:nth-of-type(4) ol li:hover::before {
+    background: #38bdf8;
+    color: #082f49;
+}
+
+/* Technician image */
+
+main section:nth-of-type(4) img {
+    width: 100%;
+    max-width: 850px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 35px;
+}
+@media (max-width: 768px) {
+        main section:nth-of-type(3) ul {
+        grid-template-columns: 1fr;
+    }
+
+    main section:nth-of-type(3) li {
+        min-height: auto;
+    }
+
+    main section:nth-of-type(3) img {
+        height: 280px;
+    }
+      main section:nth-of-type(4) ol {
+        grid-template-columns: 1fr;
+    }
+
+    main section:nth-of-type(4) ol li {
+        min-height: auto;
+    }
+
+    main section:nth-of-type(4) img {
+        height: 280px;
+    }  
+}
+
+/* =========================================
+    HEADER & NAVIGATION POLISH
+   ========================================= */
+
+/* Make the header look more premium */
+header {
+    position: relative;
+    padding: 35px 20px 30px;
+    text-align: center;
+    background: linear-gradient(135deg, #0b1220, #172554);
+    border-bottom: 3px solid #38bdf8;
+}
+
+/* Logo styling */
+header img {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    margin-bottom: 12px;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Logo hover effect */
+header img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(56, 189, 248, 0.4);
+}
+
+/* Company name */
+header h1 {
+    margin: 5px 0 8px;
+    font-size: 36px;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+/* Company tagline */
+header p {
+    margin: 0;
+    font-size: 16px;
+    color: #cbd5e1;
+    letter-spacing: 0.4px;
+}
+
+
+/* Navigation bar */
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 14px 20px;
+    background: #111827;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+
+    /* Hides the | separators already in your HTML */
+    font-size: 0;
+}
+
+
+/* Navigation links */
+nav a {
+    position: relative;
+    display: inline-block;
+    padding: 9px 17px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #e5e7eb;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+
+/* Navigation hover */
+nav a:hover {
+    color: #ffffff;
+    background: #2563eb;
+    transform: translateY(-2px);
+}
+
+
+/* Animated underline */
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 4px;
+    width: 0;
+    height: 2px;
+    background: #38bdf8;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+}
+
+
+/* Show underline when hovering */
+nav a:hover::after {
+    width: 65%;
+}
+
+
+/* =========================================
+   MOBILE HEADER
+   ========================================= */
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 25px 15px;
+    }
+
+    header img {
+        width: 90px;
+        height: 90px;
+    }
+
+    header h1 {
+        font-size: 27px;
+        letter-spacing: 1px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    nav {
+        gap: 5px;
+        padding: 10px;
+    }
+
+    nav a {
+        padding: 8px 11px;
+        font-size: 14px;
+    }
+}
+
+/* =========================================
+   STEP 6 - PROFESSIONAL ENQUIRY FORM
+   ========================================= */
+
+/* Enquiry form section */
+main form {
+    max-width: 850px;
+    margin: 30px auto 0;
+    padding: 35px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.08);
+}
+
+
+/* Form labels */
+main form label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    font-weight: 700;
+    color: #1e293b;
+}
+
+
+/* First label should not have excessive space */
+main form label:first-child {
+    margin-top: 0;
+}
+
+
+/* Text fields, email, telephone, select and textarea */
+main form input[type="text"],
+main form input[type="email"],
+main form input[type="tel"],
+main form input[type="number"],
+main form select,
+main form textarea {
+    width: 100%;
+    padding: 13px 15px;
+    margin-bottom: 5px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    background: #ffffff;
+    color: #1f2937;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+
+/* Textarea */
+main form textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+
+/* Input focus effect */
+main form input:focus,
+main form select:focus,
+main form textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+
+/* Placeholder text */
+main form input::placeholder,
+main form textarea::placeholder {
+    color: #94a3b8;
+}
+
+
+/* Radio buttons and checkboxes */
+main form input[type="radio"],
+main form input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+    accent-color: #2563eb;
+}
+
+
+/* Radio/checkbox labels */
+main form input[type="radio"] + label,
+main form input[type="checkbox"] + label {
+    display: inline-block;
+    margin: 8px 20px 8px 0;
+    font-weight: 500;
+}
+
+
+/* Submit and reset buttons */
+main form input[type="submit"],
+main form input[type="reset"],
+main form button {
+    margin-top: 25px;
+    margin-right: 10px;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 7px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+/* Button hover */
+main form input[type="submit"]:hover,
+main form button:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+    box-shadow: 0 7px 15px rgba(37, 99, 235, 0.25);
+}
+
+
+/* Reset button */
+main form input[type="reset"] {
+    background: #64748b;
+}
+
+
+/* Reset hover */
+main form input[type="reset"]:hover {
+    background: #475569;
+}
+
+
+/* Form heading if one exists */
+main form h2,
+main form h3 {
+    margin-bottom: 20px;
+    color: #0f172a;
+}
+
+
+/* =========================================
+   MOBILE ENQUIRY FORM
+   ========================================= */
+
+@media (max-width: 768px) {
+
+    main form {
+        padding: 22px;
+        margin-top: 20px;
+    }
+
+    main form input[type="text"],
+    main form input[type="email"],
+    main form input[type="tel"],
+    main form input[type="number"],
+    main form select,
+    main form textarea {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    main form input[type="submit"],
+    main form input[type="reset"],
+    main form button {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 12px;
+    }
+}
+
+/* =========================================
+   STEP 7 - PROFESSIONAL CONTACT PAGE
+   ========================================= */
+
+/* Contact information */
+main section p {
+    margin-bottom: 15px;
+}
+
+
+/* Contact details */
+main section strong {
+    color: #1d4ed8;
+}
+
+
+/* Contact page images and maps */
+main section iframe {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: 400px;
+    margin: 25px auto;
+    border: 0;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.12);
+}
+
+
+/* Map images */
+main section img[src*="map"],
+main section img[src*="Map"],
+main section img[alt*="map"],
+main section img[alt*="Map"] {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: 400px;
+    object-fit: cover;
+    margin: 25px auto;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.12);
+}
+
+
+/* Location sections */
+main section:has(img[src*="map"]),
+main section:has(img[src*="Map"]) {
+    background: #ffffff;
+}
+
+
+/* Contact form */
+main section form {
+    max-width: 850px;
+    margin: 30px auto 0;
+    padding: 35px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(15, 23, 42, 0.08);
+}
+
+
+/* Contact form labels */
+main section form label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    color: #1e293b;
+}
+
+
+/* Contact form inputs */
+main section form input[type="text"],
+main section form input[type="email"],
+main section form input[type="tel"],
+main section form textarea {
+    width: 100%;
+    padding: 13px 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    background: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #1f2937;
+    transition: all 0.3s ease;
+}
+
+
+/* Contact textarea */
+main section form textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+
+/* Contact form focus */
+main section form input:focus,
+main section form textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+
+/* Contact submit button */
+main section form input[type="submit"],
+main section form button {
+    margin-top: 25px;
+    padding: 13px 28px;
+    border: none;
+    border-radius: 7px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+/* Contact button hover */
+main section form input[type="submit"]:hover,
+main section form button:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+    box-shadow: 0 7px 15px rgba(37, 99, 235, 0.25);
+}
+
+
+/* =========================================
+   LOCATION CARDS
+   ========================================= */
+
+main section h3 {
+    color: #1e3a8a;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+
+/* =========================================
+   MOBILE CONTACT PAGE
+   ========================================= */
+
+@media (max-width: 768px) {
+
+    main section iframe {
+        height: 280px;
+    }
+
+    main section img[src*="map"],
+    main section img[src*="Map"],
+    main section img[alt*="map"],
+    main section img[alt*="Map"] {
+        height: 280px;
+    }
+
+    main section form {
+        padding: 22px;
+    }
+
+    main section form input[type="text"],
+    main section form input[type="email"],
+    main section form input[type="tel"],
+    main section form textarea {
+        font-size: 16px;
+    }
+
+    main section form input[type="submit"],
+    main section form button {
+        width: 100%;
+    }
+}
+
+/* =========================================
+   STEP 8 - ABOUT US PAGE
+   ========================================= */
+
+/* About page paragraphs */
+main section p {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* About page images */
+main section img {
+    display: block;
+    max-width: 900px;
+    width: 100%;
+    margin: 25px auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.12);
+}
+
+
+/* Team/member images */
+main section img[alt*="team"],
+main section img[alt*="Team"],
+main section img[alt*="technician"],
+main section img[alt*="Technician"],
+main section img[alt*="member"],
+main section img[alt*="Member"] {
+    max-width: 750px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+/* Mission and Vision headings */
+main section h3 {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    color: #1e3a8a;
+    border-left: 4px solid #2563eb;
+}
+
+
+/* Mission and Vision content */
+main section h3 + p {
+    background: #f8fafc;
+    padding: 22px;
+    border: 1px solid #e2e8f0;
+    border-radius: 9px;
+}
+
+
+/* Team section */
+main section ul {
+    margin-top: 20px;
+}
+
+
+/* Team list items */
+main section ul li {
+    margin-bottom: 12px;
+}
+
+
+/* Team member names */
+main section ul li strong {
+    color: #1d4ed8;
+}
+
+
+/* About page highlighted text */
+main section p strong {
+    color: #1d4ed8;
+}
+
+
+/* =========================================
+   ABOUT PAGE FEATURE CARDS
+   ========================================= */
+
+main section h3 + p:hover {
+    border-color: #2563eb;
+    box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+    transition: all 0.3s ease;
+}
+
+
+/* =========================================
+   MOBILE ABOUT PAGE
+   ========================================= */
+
+@media (max-width: 768px) {
+
+    main section {
+        padding: 30px 20px;
+    }
+
+    main section img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    main section img[alt*="team"],
+    main section img[alt*="Team"],
+    main section img[alt*="technician"],
+    main section img[alt*="Technician"],
+    main section img[alt*="member"],
+    main section img[alt*="Member"] {
+        height: 280px;
+    }
+
+    main section h3 {
+        font-size: 21px;
+    }
+}
+
+/* =========================================
+   STEP 9 - PROFESSIONAL SERVICES PAGE
+   ========================================= */
+
+/* Services list */
+main section ul {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+}
+
+
+/* Individual service cards */
+main section ul li {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 25px 25px 25px 30px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-left: 5px solid #2563eb;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+    transition: all 0.3s ease;
+}
+
+
+/* Service card hover */
+main section ul li:hover {
+    transform: translateY(-5px);
+    border-left-color: #38bdf8;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.12);
+    background: #ffffff;
+}
+
+
+/* Service title */
+main section ul li strong {
+    display: block;
+    margin-bottom: 8px;
+    color: #1d4ed8;
+    font-size: 19px;
+}
+
+
+/* Service description */
+main section ul li {
+    line-height: 1.7;
+}
+
+
+/* Service images */
+main section img {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: 400px;
+    object-fit: cover;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* Image hover */
+main section img:hover {
+    transform: scale(1.01);
+    box-shadow: 0 14px 30px rgba(15, 23, 42, 0.16);
+}
+
+
+/* Services page headings */
+main section h2 {
+    margin-bottom: 25px;
+}
+
+
+/* Service subheadings */
+main section h3 {
+    color: #1e3a8a;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+
+/* =========================================
+   SERVICE BANNER
+   ========================================= */
+
+main section:first-of-type img {
+    max-width: 1100px;
+    height: 430px;
+    object-fit: cover;
+}
+
+
+/* =========================================
+   SERVICES CTA
+   ========================================= */
+
+main section:last-of-type {
+    text-align: center;
+}
+
+
+/* CTA link */
+main section:last-of-type a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 13px 28px;
+    background: #2563eb;
+    color: #ffffff;
+    border-radius: 7px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+
+main section:last-of-type a:hover {
+    background: #1d4ed8;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(37, 99, 235, 0.25);
+}
+
+
+/* =========================================
+   MOBILE SERVICES PAGE
+   ========================================= */
+
+@media (max-width: 768px) {
+
+    main section ul li {
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+
+    main section ul li strong {
+        font-size: 17px;
+    }
+
+    main section img {
+        height: 280px;
+    }
+
+    main section:first-of-type img {
+        height: 280px;
+    }
+}
+
+/* =========================================
+   STEP 10 - PROFESSIONAL FOOTER
+   ========================================= */
+
+footer {
+    margin-top: 50px;
+    padding: 40px 20px 25px;
+    background: linear-gradient(135deg, #0b1220, #111827);
+    color: #cbd5e1;
+    text-align: center;
+    border-top: 3px solid #38bdf8;
+}
+
+
+/* Footer company name */
+footer h2,
+footer h3 {
+    margin-bottom: 12px;
+    color: #ffffff;
+    font-size: 23px;
+}
+
+
+/* Footer paragraphs */
+footer p {
+    margin: 7px auto;
+    max-width: 800px;
+    line-height: 1.6;
+}
+
+
+/* Footer links */
+footer a {
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+/* Copyright */
+footer p:last-child {
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #334155;
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+
+/* =========================================
+   FOOTER MOBILE
+   ========================================= */
+
+@media (max-width: 768px) {
+
+    footer {
+        padding: 30px 15px 20px;
+    }
+
+    footer h2,
+    footer h3 {
+        font-size: 20px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
