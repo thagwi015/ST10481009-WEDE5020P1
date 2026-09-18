@@ -1,0 +1,38 @@
+
+# THAGWIS AI MECHANIC
+
+## Project Description
+THAGWIS AI MECHANIC is a website for an automotive workshop that provides AI Vehicle Diagnostics and Automotive Care services. The website was first developed using HTML and later improved using CSS styling.
+
+## Continuity from HTML to CSS
+I continued developing my website from Part 1, where I created the five HTML pages. In Part 2, I added CSS styling to improve the website's appearance, layout and usability while keeping the same five-page structure.
+
+## Changes Made Using CSS
+- Added an external `style.css` file.
+- Improved the header and navigation bar.
+- Styled the homepage hero section.
+- Added colours, fonts, spacing and backgrounds.
+- Improved button and image styling.
+- Created a consistent design across all five pages.
+- Improved the overall appearance and readability of the website.
+
+## Website Pages
+1. Home - `index.html`
+2. About Us - `about.html`
+3. Services - `services.html`
+4. Enquiry - `enquiry.html`
+5. Contact - `contact.html`
+
+## Technologies Used
+- HTML5
+- CSS3
+- GitHub
+
+## Project Purpose
+The purpose of this project is to develop a professional and user-friendly automotive website by building on the HTML structure from Part 1 and improving its design and presentation using CSS in Part 2.
+
+## Author
+Thagwi
+
+## Project Status
+Website development in progress.
