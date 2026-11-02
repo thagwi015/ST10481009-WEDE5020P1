@@ -166,7 +166,7 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         });
     }
-    if (window.location.pathname.toLowerCase().endsWith("contact.html")) {
+    if (document.querySelector("#fullname")) {
         const contactForm = document.querySelector("main form");
 
         if (contactForm) {
