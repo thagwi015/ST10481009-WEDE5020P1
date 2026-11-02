@@ -99,7 +99,9 @@
             <br><br>
 
             <label for="phone">Phone Number:</label><br>
-            <input type="tel" id="phone" name="phone" placeholder="e.g. 0821234567" required>
+           <input type="tel" id="phone" name="phone"
+       pattern="(?:0|\+27)[6-8][0-9]{8}"
+       title="Enter a South African mobile number, e.g. 0821234567 or +27821234567">
 
         </fieldset>
 
